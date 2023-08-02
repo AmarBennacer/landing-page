@@ -117,7 +117,7 @@ button:hover {
 
 /* section Messsage start*/
 
-.message {
+.motto {
     height: 300px;
     background-color: chartreuse;
     display: flex;
@@ -133,7 +133,7 @@ section h1 {
     text-align: center;
 }
 
-.message p {
+.motto p {
     display: flex;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
@@ -143,3 +143,56 @@ section h1 {
     margin-top: 10px; /* Optional: Add some margin for spacing */
 }
 /* section Messsage end*/
+
+
+/* section motto start*/
+
+.sign-up-message {
+    display: flex;
+    
+    height: 300px;
+    background-color: grey;
+    justify-content: center;
+    align-items: center; /* Center the content vertically */
+   
+}
+
+.first-box {
+    display: flex;
+    height: 45%;
+    width: 70%;
+    background-color:brown;
+    justify-content: space-around;
+    align-content: center;      
+}
+
+.first-box button {
+    display: flex;
+    height: 40%;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.second-box {
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.second-box p {
+    background-color: blueviolet;
+    margin-top: -20px;
+}
+
+.copyright p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* section motto end*/
