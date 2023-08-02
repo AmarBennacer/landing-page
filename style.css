@@ -15,6 +15,7 @@ body {
 }
 
 nav {
+    background-color: yellowgreen; 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,11 +40,13 @@ nav a {
 
 /* section HERO start*/
 .hero{
+    margin-top: 5%;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center; /* Center the content horizontally */
-   }
+    background-color: green;   
+}
 
 .hero-text {
     padding: 20px; /* Optional: Add padding for spacing */
@@ -53,14 +56,63 @@ nav a {
  .hero-photo{
     width: 50%;
     padding: 20px; /* Optional: Add padding for spacing */
-
 }
 
 .hero-photo img {
     width: 100%;
+    border-radius: 2rem;
 
  }
 
+.hero-text p {
+    text-align: justify;
+}
 
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
 
+button:hover {
+    background-color: white;
+    color: blue;
+  }
 /* section HERO end*/
+
+/* section Battles start*/
+.battles {
+    display: flex;;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: burlywood;
+ }
+
+.battles-description { 
+    display: flex;
+    justify-content: center;      
+}
+
+.battles-description img {
+    border-radius: 2rem;
+    width: 80%;
+    height: 60%;
+} 
+
+.battles-text{   
+    text-align: center;
+    background-color: RED;
+}
+.battles-description .rounds {
+  text-align: center;
+   }
+  
+
+/* section Battles end*/
+
