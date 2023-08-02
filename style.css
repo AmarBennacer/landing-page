@@ -112,7 +112,34 @@ button:hover {
 .battles-description .rounds {
   text-align: center;
    }
-  
-
+ 
 /* section Battles end*/
 
+/* section Messsage start*/
+
+.message {
+    height: 300px;
+    background-color: chartreuse;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center the content vertically */
+    flex-direction: column;
+    position: relative; /* Add position relative to .message */
+}
+
+section h1 {
+    display: flex;
+    font-size: 40px;
+    text-align: center;
+}
+
+.message p {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    position: absolute; /* Add position absolute to .message p */
+    bottom: 0; /* Position the element at the bottom */
+    right: 0; /* Position the element at the right */
+    margin-top: 10px; /* Optional: Add some margin for spacing */
+}
+/* section Messsage end*/
