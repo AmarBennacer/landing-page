@@ -167,20 +167,22 @@ section h1 {
     color: white;
     background-color: #007bff;
     display: flex;
-    height: 45%;
-    width: 70%;
-    justify-content: space-around;
-    align-content: center;   
+    height: 40%;
+    width: 80%;
+    justify-content: space-between;
     align-items: center;
     border-radius: 1rem;
- }
+    padding: 20px;
+}
 
 .first-box button {
     display: flex;
-    height: 30%;
-    width: 20%;
-    justify-content: center;
+    height: 40px;
+    width: 100%;
+    margin-right: 20px;
     align-items: center;
+    justify-content: center; /* Center the button content horizontally */
+
     background-color:#007bff;
     color:  white;
     border-color: white;
@@ -204,7 +206,7 @@ section h1 {
     font-size: 30px;
 }
 
-/* section motto end*/
+/* section sign-up message end*/
 
 
 /* section copyright start*/
